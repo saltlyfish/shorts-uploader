@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shorts Uploader — Personal YouTube Upload Automation</title>
+<style>
+  body{font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;color:#1a1a2e;line-height:1.7}
+  h1{font-size:1.9em} h2{margin-top:1.6em;font-size:1.25em}
+  .badge{display:inline-block;background:#f1f3f8;border:1px solid #d8dde8;border-radius:8px;padding:6px 12px;font-size:.9em;margin:4px 4px 4px 0}
+  footer{margin-top:48px;padding-top:16px;border-top:1px solid #d8dde8;font-size:.95em}
+  a{color:#1a56db}
+  .yt{color:#f00;font-weight:700}
+</style>
+</head>
+<body>
+<h1>Shorts Uploader</h1>
+<p><strong>A personal, single-user command-line tool that uploads my own original
+short educational videos to my own <span class="yt">YouTube</span> channel.</strong></p>
+
+<p>This tool is not a public service and has exactly one user: the owner of the
+YouTube channel it uploads to. It runs locally on the owner's computer.</p>
+
+<h2>What it does</h2>
+<ul>
+  <li>Uploads original, self-produced business-education videos (60-second case studies) to the owner's YouTube channel via the official <strong>YouTube Data API</strong> (<code>videos.insert</code>).</li>
+  <li>Reads the owner's own channel statistics via the <strong>YouTube Data API</strong> and <strong>YouTube Analytics API</strong> to improve future videos.</li>
+  <li>Stores its Google OAuth token locally on the owner's computer. Nothing is collected from, shown to, or shared with anyone else.</li>
+</ul>
+
+<h2>YouTube API Services</h2>
+<p>Shorts Uploader uses <strong>YouTube API Services</strong>. By using it, its user
+agrees to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.
+The <a href="https://policies.google.com/privacy">Google Privacy Policy</a> applies
+to Google's handling of data.</p>
+
+<p>
+<span class="badge">Single user (channel owner)</span>
+<span class="badge">Runs locally</span>
+<span class="badge">No third-party data</span>
+<span class="badge">Original content only</span>
+</p>
+
+<footer>
+  <a href="privacy.html">Privacy Policy</a> ·
+  <a href="terms.html">Terms of Service</a><br>
+  Contact: jlai03111@gmail.com
+</footer>
+</body>
+</html>
